@@ -1,0 +1,177 @@
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 ~
+$ cd
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 ~
+$ cd
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 ~
+$ cd /e
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e
+$ ls
+'$RECYCLE.BIN'/         Git/           'Samsung Note 4 Camera'/       xampp/
+ Anaconda3/             OneDrive/      'System Volume Information'/
+ cmder/                 OneDriveTemp/   virtualbox/
+'Emails Compilation'/   pagefile.sys    Windows10Upgrade/
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e
+$ cd git
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git
+$ ls
+bin/  etc/           git-cmd.exe*  ReleaseNotes.html  unins000.exe*
+cmd/  git_project/   LICENSE.txt   tmp/               unins000.msg
+dev/  git-bash.exe*  mingw64/      unins000.dat       usr/
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git
+$ cd git_project
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project
+$ ls
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project
+$ git conig --global user.name "rozzpalacio76"
+git: 'conig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project
+$ git config --global user.name "rozzpalacio76"
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project
+$ git config --global user.email "rozzpalacio76@gmail.com"
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project
+$ git clone https://github.com/rozzpalacio76/testGit.git
+Cloning into 'testGit'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project
+$ cd testgit
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project/testgit (master)
+$ ls
+README.md
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project/testgit (master)
+$ edit readme.md
+bash: edit: command not found
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project/testgit (master)
+$ bash readme.md
+readme.md: line 3: syntax error: unexpected end of file
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project/testgit (master)
+$ ls
+README.md
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project/testgit (master)
+$ help
+GNU bash, version 4.4.19(2)-release (x86_64-pc-msys)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                            history [-c] [-d offset] [n] or hist>
+ (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
+ . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
+ :                                       kill [-s sigspec | -n signum | -sigs>
+ [ arg... ]                              let arg [arg ...]
+ [[ expression ]]                        local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]          logout [n]
+ bg [job_spec ...]                       mapfile [-d delim] [-n count] [-O or>
+ bind [-lpsvPSVX] [-m keymap] [-f file>  popd [-n] [+N | -N]
+ break [n]                               printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]       pushd [-n] [+N | -N | dir]
+ caller [expr]                           pwd [-LPW]
+ case WORD in [PATTERN [| PATTERN]...)>  read [-ers] [-a array] [-d delim] [->
+ cd [-L|[-P [-e]] [-@]] [dir]            readarray [-n count] [-O origin] [-s>
+ command [-pVv] command [arg ...]        readonly [-aAf] [name[=value] ...] o>
+ compgen [-abcdefgjksuv] [-o option] [>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DE] >  select NAME [in WORDS ... ;] do COMM>
+ compopt [-o|+o option] [-DE] [name ..>  set [-abefhkmnptuvxBCHP] [-o option->
+ continue [n]                            shift [n]
+ coproc [NAME] command [redirections]    shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgilnrtux] [-p] [name[=v>  source filename [arguments]
+ dirs [-clpv] [+N] [-N]                  suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid >  test [expr]
+ echo [-neE] [arg ...]                   time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [na>  times
+ eval [arg ...]                          trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argume>  true
+ exit [n]                                type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or ex>  typeset [-aAfFgilnrtux] [-p] name[=v>
+ false                                   ulimit [-SHabcdefiklmnpqrstuvxPT] [l>
+ fc [-e ename] [-lnr] [first] [last] o>  umask [-p] [-S] [mode]
+ fg [job_spec]                           unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMAND>  unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMAN>  until COMMANDS; do COMMANDS; done
+ function name { COMMANDS ; } or name >  variables - Names and meanings of so>
+ getopts optstring name [arg]            wait [-n] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name >  while COMMANDS; do COMMANDS; done
+ help [-dms] [pattern ...]               { COMMANDS ; }
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project/testgit (master)
+$ ls
+README.md  test
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project/testgit (master)
+$ git add test.txt
+fatal: pathspec 'test.txt' did not match any files
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project/testgit (master)
+$ git add test
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project/testgit (master)
+$ ls
+README.md  test
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project/testgit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   test
+
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project/testgit (master)
+$ git commit1
+git: 'commit1' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project/testgit (master)
+$ git commit -m "my first try" test
+[master 5159a56] my first try
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project/testgit (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 269 bytes | 269.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/rozzpalacio76/testGit.git
+   efb691d..5159a56  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project/testgit (master)
+$ ^C
+
+rozzp_q43lvua@ROZZPALACIO MINGW64 /e/git/git_project/testgit (master)
+$
